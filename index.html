@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Димоходи з нержавійки — Черкаси | Демо нового сайту Dumohod</title>
+<meta name="description" content="Демо-версія нового сайту Dumohod: одностінні, двостінні димоходи та для лазні з доставкою по Україні.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="demo-bar">Це демо-версія нового сайту для dumohod.com.ua · <a href="offer.html">Пропозиція та ціни →</a></div>
+
+<header class="dark">
+  <div class="wrap">
+    <a class="logo" href="#top">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="11" y="4" width="10" height="24" rx="1"/><path d="M8 4h16"/><path d="M14 10c2 2-2 4 0 6"/></svg>
+      ДИМОХІД
+    </a>
+    <nav aria-label="Головне меню">
+      <a href="#catalog">Каталог</a>
+      <a href="#pick">Підбір</a>
+      <a href="#delivery">Доставка й оплата</a>
+      <a href="#contacts">Контакти</a>
+    </nav>
+    <a class="btn sm" href="tel:+380688040652">(068) 804-06-52</a>
+  </div>
+</header>
+
+<section id="top" class="dark2">
+  <div class="wrap hero">
+    <div class="hero-text">
+      <p class="eyebrow">Черкаси · доставка по всій Україні</p>
+      <h1>Димоходи з нержавійки для котла, печі та лазні</h1>
+      <p class="lead">Одностінні, двостінні та спеціальні димоходи. Підберемо комплект під вашу піч і відправимо Новою Поштою із 100% страхуванням.</p>
+      <div class="actions">
+        <a class="btn" href="#pick">Підібрати димохід</a>
+        <a class="btn ghost" href="#catalog">Дивитись каталог</a>
+      </div>
+    </div>
+
+    <form id="pick" class="pick" aria-label="Швидкий підбір димоходу">
+      <h2>Підбір за 1 хвилину</h2>
+      <p class="muted">Залиште дані — менеджер передзвонить і порахує комплект.</p>
+      <label>Для чого димохід
+        <select name="type">
+          <option>Газовий котел</option>
+          <option>Твердопаливний котел</option>
+          <option>Піч або камін</option>
+          <option>Лазня / сауна</option>
+        </select>
+      </label>
+      <label>Висота, м
+        <input type="number" name="height" min="1" max="30" placeholder="Напр. 6">
+      </label>
+      <label>Телефон
+        <input type="tel" name="phone" placeholder="+380" required>
+      </label>
+      <button class="btn" type="submit">Отримати розрахунок</button>
+      <p class="ok" role="status">Дякуємо! Менеджер зателефонує вам найближчим часом. (Демо: у робочій версії заявка прийде в Telegram.)</p>
+    </form>
+  </div>
+</section>
+
+<section style="padding:32px 0;border-bottom:1px solid var(--line)" aria-label="Переваги">
+  <div class="wrap grid perks">
+    <div class="perk"><div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></div><div><strong>Нова Пошта</strong><div class="muted">Відправка по всій Україні</div></div></div>
+    <div class="perk"><div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></div><div><strong>Страхування 100%</strong><div class="muted">Вантаж застрахований повністю</div></div></div>
+    <div class="perk"><div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></div><div><strong>Обмін 14 днів</strong><div class="muted">Якщо деталь не підійшла</div></div></div>
+    <div class="perk"><div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></div><div><strong>Сертифікати</strong><div class="muted">Документи на продукцію</div></div></div>
+  </div>
+</section>
+
+<section id="catalog" class="soft">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Каталог</h2>
+      <p class="muted">Ціни видно одразу — без дзвінків «уточнити вартість»</p>
+    </div>
+    <div class="grid">
+      <a class="card" href="#pick"><div class="ph">Фото товару</div><div class="card-body"><strong>Одностінні димоходи</strong><span class="muted">Труби, коліна, трійники, ревізії</span><span class="from">від [ціна] грн</span></div></a>
+      <a class="card" href="#pick"><div class="ph">Фото товару</div><div class="card-body"><strong>Двостінні (сендвіч)</strong><span class="muted">Утеплені для виходу на вулицю</span><span class="from">від [ціна] грн</span></div></a>
+      <a class="card" href="#pick"><div class="ph">Фото товару</div><div class="card-body"><strong>Для лазні та сауни</strong><span class="muted">Термо-серія для банних печей</span><span class="from">від [ціна] грн</span></div></a>
+      <a class="card" href="#pick"><div class="ph">Фото товару</div><div class="card-body"><strong>Низьколегована сталь</strong><span class="muted">Бюджетне рішення для котлів</span><span class="from">від [ціна] грн</span></div></a>
+      <a class="card" href="#pick"><div class="ph">Фото товару</div><div class="card-body"><strong>Герметики та Мастер Флеш</strong><span class="muted">Термостійкі герметики, проходки</span><span class="from">від [ціна] грн</span></div></a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="big">Як замовити</h2>
+    <div class="grid">
+      <div class="step"><span class="num">01</span><strong>Залиште заявку</strong><span class="muted">Через форму, телефон, Viber чи Telegram.</span></div>
+      <div class="step"><span class="num">02</span><strong>Підберемо комплект</strong><span class="muted">Менеджер порахує деталі під вашу піч і висоту.</span></div>
+      <div class="step"><span class="num">03</span><strong>Відправимо</strong><span class="muted">Новою Поштою, із застрахованим вантажем.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="delivery" class="soft">
+  <div class="wrap two">
+    <div class="box">
+      <h3>Доставка</h3>
+      <p>Новою Поштою по всій Україні. Вантаж застрахований на 100%.</p>
+      <p class="muted">Замовлення після 17:00 і у вихідні відправляємо наступного робочого дня.</p>
+    </div>
+    <div class="box">
+      <h3>Оплата</h3>
+      <p>Переказ на рахунок ПриватБанку або накладений платіж при отриманні.</p>
+      <p class="muted">Обмін протягом 14 днів. Гарантія від виробника.</p>
+    </div>
+  </div>
+</section>
+
+<footer id="contacts" class="dark">
+  <div class="wrap">
+    <div class="col">
+      <span class="logo">ДИМОХІД</span>
+      <span class="muted">м. Черкаси, вул. Надпільна, 218</span>
+      <span class="muted">Пн–Пт 9:00–17:00</span>
+    </div>
+    <div class="col">
+      <a href="tel:+380688040652">(068) 804-06-52</a>
+      <a href="tel:+380501941870">(050) 194-18-70</a>
+      <a class="mail" href="mailto:dumohod24@ukr.net">dumohod24@ukr.net</a>
+    </div>
+    <div class="socials">
+      <a class="btn ghost sm" href="viber://chat?number=%2B380688040652">Viber</a>
+      <a class="btn ghost sm" href="#top">Telegram</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('pick').addEventListener('submit', function (e) {
+    e.preventDefault();
+    this.classList.add('sent');
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: dumohod-demo
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
